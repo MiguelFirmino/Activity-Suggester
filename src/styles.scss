@@ -3,15 +3,13 @@
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
 :root {
-    --dark-purple: #7371fc;
-    --med-purple: #a594f9;
-    --light-purple: #cdc1ff;
-    --magnolia: #f5efff;
-    --pale-purple: #e5d9f2;
+  --dark-purple: #7371fc;
+  --med-purple: #a594f9;
+  --light-purple: #cdc1ff;
+  --magnolia: #f5efff;
+  --pale-purple: #e5d9f2;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
-
-// e5d9f2-f5efff-cdc1ff-a594f9-7371fc

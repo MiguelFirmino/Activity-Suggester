@@ -1,1 +1,17 @@
-<p>activities works!</p>
+<div class="container">
+    <div class="row">
+        <h2>Kind of Activity: {{ activityType }}</h2>
+    </div>
+
+    <div class="row">
+        <p>Activity: {{ activityDescription }}</p>
+        <p>Participants: {{ activityParticipants }}</p>
+        <p>Price: {{ activityPrice }}</p>
+        <p *ngIf="activityLink">Link: <a href="{{activityLink}}">{{activityLink}}</a></p>
+    </div>
+    
+    <div class="row gy-2">
+        <button class="btn btn-primary" (click)="requestActivity()">Next</button>
+        <button class="btn btn-primary" routerLink="/home">Home</button>
+    </div>
+</div>
