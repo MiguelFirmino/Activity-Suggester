@@ -6,10 +6,10 @@ price, type and others. My goal with this project is to learn about HTTP request
 ## 🚧 Work in progress! 🚧
 
 🚩 Done: 🚩
-[x] Created home component.
-[x] Created activity component.
-[x] Added Bootstrap.
-[x] Configured Routes.
+- [x] Created home component.
+- [x] Created activity component.
+- [x] Added Bootstrap.
+- [x] Configured Routes.
 
 ## Concepts Applied🏴
 
